@@ -1,0 +1,16 @@
+[project]
+name = "mlflow-wine-quality"
+version = "1.0.0"
+description = "MLOps pipeline con MLflow - Wine Quality Classification"
+requires-python = ">=3.11"
+
+dependencies = [
+    "mlflow==2.18.0",
+    "psycopg2-binary==2.9.10",
+    "google-cloud-storage==2.19.0",
+    "scikit-learn==1.5.2",
+    "pandas==2.2.3",
+    "numpy==1.26.4",
+    "matplotlib==3.9.3",
+    "seaborn==0.13.2",
+]
